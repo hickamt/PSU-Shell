@@ -1,0 +1,23 @@
+{
+  "name": "psu-shell",
+  "version": "1.0.0",
+  "description": "simple shell implementation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gcc -g -Wall -o psush *.c && ./psush",
+    "test": "gcc -g -Wall -o psush *.c && ./psush -t",
+    "menu": "gcc -g -Wall -o psush *.c && ./psush -h",
+    "clean": "rm psush *.o *.txt *~"
+  },
+  "keywords": [
+    "shell",
+    "operating",
+    "systems",
+    "redirects",
+    "pipe",
+    "piping",
+    "execvp"
+  ],
+  "author": "Todd Hickam",
+  "license": "ISC"
+}
