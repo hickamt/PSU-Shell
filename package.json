@@ -4,9 +4,9 @@
   "description": "simple shell implementation",
   "main": "index.js",
   "scripts": {
-    "dev": "./psush",
-    "test": "./psush -t",
-    "menu": "./psush -h",
+    "dev": "gcc -g -Wall -o psush *.c && ./psush",
+    "test": "gcc -g -Wall -o psush *.c && ./psush -t",
+    "menu": "gcc -g -Wall -o psush *.c && ./psush -h",
     "clean": "rm *.txt"
   },
   "keywords": [

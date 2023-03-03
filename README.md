@@ -13,15 +13,13 @@ This program includes the basic implementation you would expect in a shell such 
 
 A few extra additions I made include the custom shell which was originally static. After testing 'cd' without the feedback expected from the given shell I modified it to include the current working directory path and then added a color scheme. The point reductions received on modifying the SH.. out of this program is SOOO worth it.
 
-## Doing It Different | Run Using Yarn or NPM
+## Doing It Different | Package.json 
 
 UNCONVENTIONAL: As much as I enjoyed learning to build my own make files, I don't like to stop tyring new things once an interesting project is over. I enjoy sovling problems using unconventional methods and feel that compiling and running a C program using package.json is just too fun not to try.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/PSU-Shell/)
+## NPM / Yarn Commands
 
-## Run From StackBlitz Command Line OR Locally
-
-Of course, you will need NodeJS installed to run using the node package manager (npm).
+Of course, you will need NodeJS installed to the node package manager (npm).
 
 - [NodeJS (npm) installation instructions](https://nodejs.org/en/download/)
 
@@ -60,6 +58,14 @@ $ yarn clean
 // Build and display the menu
 $ yarn menu
 ```
+
+## View in VSCode Online
+
+NOTE: I tried to get the program to run on StackBlitz, which should have worked, but they denied me at the gate. NO ( .exe ) files I guess, but who can blame them!
+
+<a href="https://vscode.dev/github/hickamt/PSU-Shell">
+<img src="vs-btn.png" alt="vscode button" width="auto" height="70px" />
+</a>
 
 ## Method of Creation
 
