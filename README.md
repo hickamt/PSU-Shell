@@ -11,11 +11,13 @@ This program includes the basic implementation you would expect in a shell such 
 - echo: you know ... you know
 - grep and other execvp() commands
 
+A few extra additions I made include the custom shell which was originally static. After testing 'cd' without the feedback expected from the given shell I modified it to include the current working directory path and then added a color scheme. The point reductions received on modifying the SH.. out of this program is SOOO worth it.
+
 ## Doing It Different | Run Using Yarn or NPM
 
 UNCONVENTIONAL: As much as I enjoyed learning to build my own make files, I don't like to stop tyring new things once an interesting project is over. I enjoy sovling problems using unconventional methods and feel that compiling and running a C program using package.json is just too fun not to try.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/___YOUR_PATH___)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/PSU-Shell/)
 
 ## Run From StackBlitz Command Line OR Locally
 
